@@ -1,0 +1,15 @@
+/**
+ * Put all of your styles for your element in here!
+ * @required
+ */
+code{
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	color: red;
+	margin: 0px 5px;
+}
+strong{
+	font-weight: bold;
+	text-transform: uppercase;
+}

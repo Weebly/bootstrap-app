@@ -1,0 +1,47 @@
+{
+  "manifest": "1",
+  "version": "1.0.2",
+  "locale": {
+  	"default": "en-us",
+  	"supported": ["en-us"]
+  },
+  "elements": [
+	{
+	  "path": "files",
+	  "name": "Bootstrap Element",
+	  "version": "1.0.2",
+	  "settings": {
+		"config": {
+		  "external": {
+			  "url": "https://weebly.com",
+			  "label": "Check out Weebly."
+		  },
+		  "autopop": false
+		},
+		"properties": [
+          {
+            "type": "group",
+            "name": "settings",
+            "label": "Settings",
+            "properties": [
+              {
+                "name": "company",
+                "default": "Weebly",
+                "hidden": true,
+                "type": "string",
+                "label": "Company"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "default": "rock",
+                "type": "select",
+                "values": ["rock", "roll", "be awesome", "explode"]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
